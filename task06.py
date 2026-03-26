@@ -1,7 +1,7 @@
 def is_valid_phone_number():
     number = input("Raqam: ")
 
-    if len(number) == 9:
+    if len(number) == 9 and number.isdigit():
         print(True)
 
     else:
